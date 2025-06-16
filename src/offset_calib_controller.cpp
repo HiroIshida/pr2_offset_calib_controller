@@ -63,8 +63,9 @@ void OffsetCalibrationController::starting() {
   actuator_->state_.zero_offset_ += extra_offset_;
   joint_->calibrated_ = true;
 
-  ROS_INFO(
-      "OffsetCalibrationController: added %.6f [rad] to zero_offset_ "
+  ROS_WARN(
+      "(h-ishida ~>) OffsetCalibrationController: added %.6f [rad] to "
+      "zero_offset_ "
       "(new value=%.6f)",
       extra_offset_, actuator_->state_.zero_offset_);
 }
