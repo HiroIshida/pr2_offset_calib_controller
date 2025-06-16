@@ -1,5 +1,5 @@
 <library path="lib/libpr2_offset_calib_controller">
-  <class name="pr2_offset_calib_controller/OffsetCalibrationController" type="pr2_offset_calib_controller::OffsetCalibrationController" base_class_type="pr2_controller_interface::Controller">
+  <class name="pr2_offset_calib_controller/OffsetCalibrationController" type="controller::OffsetCalibrationController" base_class_type="pr2_controller_interface::Controller">
     <description>
       apply offset forcefully
     </description>
