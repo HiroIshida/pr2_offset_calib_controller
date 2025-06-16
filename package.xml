@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<package>
+  <name>pr2_offset_calib_controller</name>
+  <maintainer email="h-ishida@jsk.imi.i.u-tokyo.ac.jp">Hirokazu Ishida</maintainer>
+  <version>0.0.0</version>
+  <description>The pr2_offset_calib_controller package</description>
+  <license>MIT</license>
+  <author>Hirokazu Ishida</author>
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>std_msgs</build_depend>
+  <build_depend>pr2_controller_interface</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>pr2_mechanism_model</build_depend>
+  <build_depend>realtime_tools</build_depend>
+  <build_depend>robot_mechanism_controllers</build_depend>
+  <build_depend>pr2_mechanism_controllers</build_depend>
+  <build_depend>pluginlib</build_depend>
+
+  <run_depend>std_msgs</run_depend>
+  <run_depend>pr2_controller_interface</run_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>pr2_mechanism_model</run_depend>
+  <run_depend>realtime_tools</run_depend>
+  <run_depend>robot_mechanism_controllers</run_depend>
+  <run_depend>pr2_mechanism_controllers</run_depend>
+  <run_depend>pluginlib</run_depend>
+
+  <export>
+    <pr2_controller_interface plugin="${prefix}/pr2_offset_calib_controller_plugin.xml"/>
+  </export>
+</package>
