@@ -1,5 +1,0 @@
-l_elbow_flex_joint_offset_calib_controller:
-  type: pr2_offset_calib_controller/OffsetCalibrationController
-  joint: l_elbow_flex_joint
-  actuator: l_elbow_flex_motor
-  extra_offset: 0.0
